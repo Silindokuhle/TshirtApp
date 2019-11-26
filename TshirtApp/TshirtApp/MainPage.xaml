@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TshirtApp.MainPage"
+             BackgroundImageSource="tshirt">
+
+
+    <StackLayout BackgroundColor="DeepPink">
+
+        <Label Text="Madam Slee Tees"
+                   TextColor="White"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   Margin="50"/>
+
+        <Image Source ="tshirt"
+               Margin="-20"/>
+
+        <Button Text="Place Order"
+                    FontSize="Medium"
+                    FontAttributes="Bold"
+                    Clicked="Button_Clicked"
+                    Margin="30"/>
+        
+        <Button Text="View Order" 
+                    FontSize="Medium"
+                    FontAttributes="Bold"
+                    Clicked="Button_Clicked1"
+                    Margin="30"/>
+
+
+
+    </StackLayout>
+</ContentPage>
